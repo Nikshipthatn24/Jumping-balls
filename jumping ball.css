@@ -1,0 +1,154 @@
+     h1{
+            border: 2px solid blue;
+            width: 100px;
+            position: relative;
+            top: 10px;
+
+
+        }
+        .h1{
+            /* border: 1px solid white; */
+            width: 10px;
+            height: 10px;
+            margin: 50px;
+            border-radius: 20%;
+            background-color:yellow;
+            background-image: radial-gradient(yellow 20%,white);
+            box-shadow: 0px 0px 9px white;
+           
+        } 
+   
+        .h4{
+            border: 1px solid blue;
+            width: 10px;
+            height: 10px;
+            margin: 10px;
+
+        }
+        #c1{
+             border: 1px solid blue;
+             width: 15px;
+            height: 15px;
+            margin: 50px;
+            /* background-color:yellow; */
+            background-image: radial-gradient( yellow 2% ,blue);
+            box-shadow: 0px 0px 9px blue;
+            /* border-radius: 100%; */
+           
+            
+            position: relative;
+            right: 40px;
+            top: 70px;
+
+
+            animation-name: load1;
+            animation-iteration-count: infinite;
+            animation-duration:1s;
+            animation-timing-function: linear; 
+        }
+        
+        @keyframes load1 {
+     
+        50%{
+            position: relative;
+            top:150px;
+            border-radius:0px;
+        }
+        60%{
+            border-radius: 100%;
+        } 
+         
+        }
+        #c4{
+            border: 1px solid white;
+            width: 15px;
+            height: 15px;
+            margin: 10px;
+            position: relative;
+            left: 40px;
+            top: -30px;
+            border-radius: 20%;
+            animation-name: load4;
+            animation-iteration-count: infinite;
+            animation-duration:1s;
+            animation-timing-function: linear;
+            box-shadow: 0px 0px 6px white;
+            background-image: radial-gradient(orange,white);
+
+        }
+        @keyframes load4 {
+            50%{
+                position: relative;
+                top: 25px;
+                border-radius: 0px;
+
+            }
+            60%{
+                border-radius: 100%;
+            } 
+            
+        }
+        .h3{
+            border: 1px solid orange;
+            /* background:white; */
+            background-image: radial-gradient(blue,rgb(235, 184, 89) 90%);
+            box-shadow: 0px 0px 6px red;
+            width: 15px;
+            height: 15px;
+            margin: 10px;
+            position: relative;
+            left:10px;
+            top: 50px;
+            /* border-radius: 0%; */
+            animation-name: load3;
+            animation-iteration-count: infinite;
+            animation-duration:1s;
+            animation-timing-function: linear;    
+        
+
+        }
+        @keyframes load3 {
+           
+            50%{
+                position: relative;
+                top:-10px;
+                /* border-radius: 100px;  */
+            }
+            70%{
+                border-radius: 100%;
+            }
+            
+        }
+        .h2{
+            border: 1px solid red;
+            width: 15px;
+            height: 15px;
+            margin: 10px;
+            position: relative;
+            right: 15px;
+            top: 78px;
+            background-image: radial-gradient(yellow ,rgba(154, 127, 127, 0.001) 40%);
+            box-shadow: 0px 0px 8px red;
+           
+            /* border-radius: 0%; */
+             animation-name: load3;
+            animation-iteration-count: infinite;
+            animation-duration:1s;
+            animation-timing-function: linear;     
+        
+
+        }
+        @keyframes load3 {
+          
+            50%{
+                position: relative;
+                top:-10px;
+                /* border-radius: 100px;  */
+            }
+            70%{
+                border-radius: 100%;
+            }
+            
+        }
+        
+
